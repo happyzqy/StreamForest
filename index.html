@@ -892,8 +892,8 @@
     <div class="columns is-centered">
       <div class="column">
         <div class="content has-text-centered">
-          <h2 class="title is-3">Generation Pipeline of OVBench</h2>
-          <img src="static/images/generation_pipeline.png" alt="data-composition" style="max-width: 60%;"/>
+          <h2 class="title is-3">ODV-Bench</h2>
+          <img src="static/images/benchmark.pdf" alt="data-composition" style="max-width: 80%;"/>
           <p style="text-align: center; margin-left: auto; margin-right: auto; width: 80%;" >
           </p>
         </div>
@@ -918,13 +918,13 @@
       <div class="column is-full has-text-centered content"> -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths" style="width: 100%;">
-        <h2 class="title is-3">Pyramid Memory Bank Architecture</h2>
+        <h2 class="title is-3">Overview of StreamForest.</h2>
         <div class="content has-text-justified">
-          An illustration of the model's inference process with the pyramid memory bank structure. m<sub>main</sub> queues maintain balanced spatiotemporal information at different hierarchical levels,  m<sub>t</sub> is a high-frequency sampling queue for enhanced temporal detail preservation, and m<sub>s</sub> queue is for spatial detail retention. The system supports simultaneous frame input to both the memory bank and KVCache, with synchronization mechanisms for maintaining consistency during memory modifications.
+          The Fine-grained Spatiotemporal Window captures instance-level spatiotemporal features, while the Persistent Event Memory Forest adaptively organizes event-level representations into a set of tree structures. Dashed arrows and feature tokens illustrate potential operations performed during each memory update iteration.
         </div>
         <div class="box m-5">
           <div class="content has-text-centered">
-            <img src="static/images/memory.png" alt="grade-lv" width="80%"/>
+            <img src="static/images/architecture.pdf" alt="grade-lv" width="80%"/>
             <!-- <p>The AutoDQ workflow.</p> -->
         </div>
       </div>
@@ -943,11 +943,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <pre><code>
-@article{huang2024online,
-  title={Online Video Understanding: OVBench and VideoChat-Online},
-  author={Huang, Zhenpeng and Li, Xinhao and Li, Jiaqi and Wang, Jing and Zeng, Xiangyu and Liang, Cheng and Wu, Tao and Chen, Xi and Li, Liang and Wang, Limin},
-  journal={arXiv preprint arXiv:2501.00584},
-  year={2024}
+@article{zeng2025streamforest,
+  title={StreamForest: Efficient Online Video Understanding with Persistent Event Memory},
+  author={Zeng, Xiangyu and Qiu, Kefan and Zhang, Qingyu and Li, Xinhao and Wang, Jing and Li, Jiaxin and Yan, Ziang and Tian, Kun and Tian, Meng and Zhao, Xinhai and others},
+  journal={arXiv preprint arXiv:2509.24871},
+  year={2025}
 }
 </code></pre>
   </div>
