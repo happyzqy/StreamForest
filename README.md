@@ -1,2 +1,2 @@
 # Website for StreamForest
-[homepage](happyzqy.github.io/StreamForest)
+[homepage](https://happyzqy.github.io/StreamForest)
